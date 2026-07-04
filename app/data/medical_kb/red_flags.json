@@ -1,0 +1,114 @@
+{
+  "emergency_patterns": [
+    {
+      "id": "emg-001",
+      "pattern": "cardiac_emergency",
+      "keywords": ["heart attack", "cardiac arrest", "severe chest pain", "crushing chest pain"],
+      "symptom_combinations": [
+        ["chest pain", "sweating", "nausea"],
+        ["chest pain", "arm pain", "shortness of breath"],
+        ["chest tightness", "jaw pain", "dizziness"]
+      ],
+      "message": "Your symptoms may indicate a cardiac emergency. Call emergency services (911/112) immediately or go to the nearest emergency room.",
+      "severity": "critical"
+    },
+    {
+      "id": "emg-002",
+      "pattern": "stroke",
+      "keywords": ["stroke", "face drooping", "arm weakness", "speech difficulty"],
+      "symptom_combinations": [
+        ["sudden numbness", "one side of body"],
+        ["sudden confusion", "trouble speaking"],
+        ["sudden severe headache", "no known cause"],
+        ["sudden vision loss", "one eye"]
+      ],
+      "message": "Your symptoms may indicate a stroke. Call emergency services immediately. Remember FAST: Face drooping, Arm weakness, Speech difficulty, Time to call 911.",
+      "severity": "critical"
+    },
+    {
+      "id": "emg-003",
+      "pattern": "breathing_emergency",
+      "keywords": ["can't breathe", "cannot breathe", "choking", "severe difficulty breathing", "lips turning blue", "cyanosis"],
+      "symptom_combinations": [
+        ["shortness of breath", "lips blue"],
+        ["difficulty breathing", "chest pain", "rapid breathing"]
+      ],
+      "message": "Severe breathing difficulty is a medical emergency. Call emergency services immediately.",
+      "severity": "critical"
+    },
+    {
+      "id": "emg-004",
+      "pattern": "severe_bleeding",
+      "keywords": ["severe bleeding", "uncontrollable bleeding", "hemorrhage", "vomiting blood", "coughing up blood"],
+      "symptom_combinations": [
+        ["bleeding", "won't stop"],
+        ["vomiting", "blood"],
+        ["coughing", "blood", "large amounts"]
+      ],
+      "message": "Severe or uncontrollable bleeding requires immediate emergency care. Apply pressure to wounds and call emergency services.",
+      "severity": "critical"
+    },
+    {
+      "id": "emg-005",
+      "pattern": "consciousness",
+      "keywords": ["unconscious", "passed out", "unresponsive", "seizure", "convulsions", "fainting"],
+      "symptom_combinations": [
+        ["loss of consciousness"],
+        ["seizure", "not waking up"]
+      ],
+      "message": "Loss of consciousness or seizures require immediate emergency evaluation. Call emergency services.",
+      "severity": "critical"
+    },
+    {
+      "id": "emg-006",
+      "pattern": "mental_health_crisis",
+      "keywords": ["suicidal", "suicide", "want to die", "self-harm", "overdose", "killing myself"],
+      "symptom_combinations": [
+        ["thoughts of suicide"],
+        ["plan to hurt myself"],
+        ["took too many pills"]
+      ],
+      "message": "If you or someone you know is in crisis, please call the Suicide & Crisis Lifeline at 988 (US) or your local emergency number immediately. You are not alone, and help is available right now.",
+      "severity": "critical"
+    },
+    {
+      "id": "emg-007",
+      "pattern": "anaphylaxis",
+      "keywords": ["anaphylaxis", "allergic shock", "throat swelling shut", "severe allergic reaction"],
+      "symptom_combinations": [
+        ["allergic reaction", "throat swelling", "difficulty breathing"],
+        ["hives", "swelling", "breathing difficulty"]
+      ],
+      "message": "Severe allergic reactions (anaphylaxis) are life-threatening. Use an epinephrine auto-injector if available and call emergency services immediately.",
+      "severity": "critical"
+    },
+    {
+      "id": "emg-008",
+      "pattern": "head_injury",
+      "keywords": ["severe head injury", "skull fracture", "head trauma", "concussion with vomiting"],
+      "symptom_combinations": [
+        ["head injury", "vomiting"],
+        ["head injury", "confusion"],
+        ["head injury", "loss of consciousness"]
+      ],
+      "message": "Head injuries with concerning symptoms require immediate emergency evaluation. Do not let the person sleep until evaluated. Call emergency services.",
+      "severity": "critical"
+    }
+  ],
+  "instant_emergency_keywords": [
+    "heart attack",
+    "stroke",
+    "can't breathe",
+    "cannot breathe",
+    "severe bleeding",
+    "unconscious",
+    "seizure",
+    "suicidal",
+    "suicide",
+    "overdose",
+    "choking",
+    "anaphylaxis",
+    "cardiac arrest",
+    "not breathing"
+  ]
+}

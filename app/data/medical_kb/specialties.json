@@ -1,0 +1,112 @@
+{
+  "specialties": [
+    {
+      "name": "Cardiologist",
+      "description": "Diagnoses and treats diseases of the heart and blood vessels, including coronary artery disease, heart failure, arrhythmias, and hypertension.",
+      "common_conditions": ["heart disease", "high blood pressure", "arrhythmia", "heart failure", "chest pain"],
+      "icd10_chapters": ["I00-I99"]
+    },
+    {
+      "name": "Dermatologist",
+      "description": "Specializes in conditions affecting the skin, hair, and nails, including eczema, psoriasis, acne, skin cancer, and cosmetic concerns.",
+      "common_conditions": ["eczema", "psoriasis", "acne", "skin cancer", "rashes"],
+      "icd10_chapters": ["L00-L99"]
+    },
+    {
+      "name": "Endocrinologist",
+      "description": "Treats hormonal disorders including diabetes, thyroid diseases, metabolic disorders, and adrenal conditions.",
+      "common_conditions": ["diabetes", "thyroid disease", "hormone imbalance", "PCOS", "osteoporosis"],
+      "icd10_chapters": ["E00-E89"]
+    },
+    {
+      "name": "Gastroenterologist",
+      "description": "Specializes in the digestive system including the esophagus, stomach, intestines, liver, pancreas, and gallbladder.",
+      "common_conditions": ["GERD", "IBS", "Crohn's disease", "ulcerative colitis", "liver disease"],
+      "icd10_chapters": ["K00-K95"]
+    },
+    {
+      "name": "Neurologist",
+      "description": "Diagnoses and treats disorders of the nervous system including the brain, spinal cord, and peripheral nerves.",
+      "common_conditions": ["migraines", "epilepsy", "multiple sclerosis", "Parkinson's disease", "neuropathy"],
+      "icd10_chapters": ["G00-G99"]
+    },
+    {
+      "name": "Orthopedist",
+      "description": "Treats musculoskeletal conditions including bones, joints, ligaments, tendons, and muscles through surgical and non-surgical methods.",
+      "common_conditions": ["fractures", "arthritis", "back pain", "sports injuries", "joint replacement"],
+      "icd10_chapters": ["M00-M99", "S00-T88"]
+    },
+    {
+      "name": "Pulmonologist",
+      "description": "Specializes in diseases of the lungs and respiratory system including asthma, COPD, and pulmonary fibrosis.",
+      "common_conditions": ["asthma", "COPD", "pneumonia", "lung cancer", "sleep apnea"],
+      "icd10_chapters": ["J00-J99"]
+    },
+    {
+      "name": "ENT Specialist",
+      "description": "Treats conditions of the ear, nose, and throat (otolaryngologist), including hearing loss, sinusitis, and voice disorders.",
+      "common_conditions": ["sinusitis", "hearing loss", "tinnitus", "tonsillitis", "voice disorders"],
+      "icd10_chapters": ["H60-H95", "J30-J39"]
+    },
+    {
+      "name": "Ophthalmologist",
+      "description": "Medical doctor specializing in eye and vision care, including surgery for cataracts, glaucoma, and retinal diseases.",
+      "common_conditions": ["glaucoma", "cataracts", "macular degeneration", "diabetic retinopathy"],
+      "icd10_chapters": ["H00-H59"]
+    },
+    {
+      "name": "Psychiatrist",
+      "description": "Medical doctor specializing in mental health diagnosis and treatment, including medication management for psychiatric conditions.",
+      "common_conditions": ["depression", "anxiety", "bipolar disorder", "schizophrenia", "PTSD"],
+      "icd10_chapters": ["F00-F99"]
+    },
+    {
+      "name": "Urologist",
+      "description": "Treats diseases of the urinary system and male reproductive system, including kidney stones, incontinence, and prostate conditions.",
+      "common_conditions": ["kidney stones", "urinary incontinence", "prostate issues", "UTI", "bladder cancer"],
+      "icd10_chapters": ["N00-N99"]
+    },
+    {
+      "name": "Rheumatologist",
+      "description": "Specializes in autoimmune and inflammatory diseases affecting joints, muscles, and the immune system.",
+      "common_conditions": ["rheumatoid arthritis", "lupus", "fibromyalgia", "gout", "scleroderma"],
+      "icd10_chapters": ["M05-M14", "M30-M36"]
+    },
+    {
+      "name": "Oncologist",
+      "description": "Diagnoses and treats cancer through chemotherapy, immunotherapy, and coordination of comprehensive cancer care.",
+      "common_conditions": ["breast cancer", "lung cancer", "leukemia", "lymphoma", "colon cancer"],
+      "icd10_chapters": ["C00-D49"]
+    },
+    {
+      "name": "Gynecologist",
+      "description": "Specializes in women's reproductive health including menstrual disorders, pregnancy, menopause, and reproductive cancers.",
+      "common_conditions": ["menstrual disorders", "PCOS", "endometriosis", "pregnancy care", "cervical cancer screening"],
+      "icd10_chapters": ["N70-N98", "O00-O9A"]
+    },
+    {
+      "name": "Nephrologist",
+      "description": "Specializes in kidney diseases, dialysis management, and kidney transplant care.",
+      "common_conditions": ["chronic kidney disease", "kidney failure", "glomerulonephritis", "polycystic kidney disease"],
+      "icd10_chapters": ["N00-N29"]
+    },
+    {
+      "name": "Allergist/Immunologist",
+      "description": "Diagnoses and treats allergies, asthma, and immune system disorders including immunodeficiencies.",
+      "common_conditions": ["food allergies", "hay fever", "asthma", "immune deficiency", "drug allergies"],
+      "icd10_chapters": ["T78", "J30", "D80-D89"]
+    },
+    {
+      "name": "General Practitioner",
+      "description": "Provides comprehensive primary care including preventive medicine, health screenings, and initial evaluation of a wide range of conditions.",
+      "common_conditions": ["general illness", "preventive care", "routine checkup", "minor injuries", "referrals"],
+      "icd10_chapters": ["Z00-Z99"]
+    },
+    {
+      "name": "Pediatrician",
+      "description": "Specializes in medical care for infants, children, and adolescents, including development, vaccinations, and childhood diseases.",
+      "common_conditions": ["childhood infections", "developmental delay", "vaccinations", "growth issues"],
+      "icd10_chapters": ["P00-P96"]
+    }
+  ]
+}
